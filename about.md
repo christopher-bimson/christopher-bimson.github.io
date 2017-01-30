@@ -16,6 +16,6 @@ Over the past 15 years I have helped create software to:
 
 I believe in the [principles of agile software development](http://agilemanifesto.org/principles.html), and that practices and processes derived from them are the best ways to develop software we currently know of. I care about good software craftmanship practices like TDD, BDD, SOLID object-orientated code, domain driven design, and continuous integration and release.
 
-The main purpose of the blog is to make me a better writer by forcing myself to write more regularly. The topics will mainly be programming bits and bobs, solutions to my IT yak shaving problems and opinions on the things I care about.
+The main purpose of the blog is to make me a better writer by forcing myself to write more frequently. The topics will mainly be programming bits and bobs, solutions to my IT yak shaving problems and opinions on the things I care about.
 
 The opinions expressed here are my own, and do not represent the views of my employer.
