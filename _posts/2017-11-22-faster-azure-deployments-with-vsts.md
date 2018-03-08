@@ -7,7 +7,7 @@ Fixing a failing release definition in Visual Studio Team Services can be a chor
 
 This can have a surprising performance cost if your pipeline makes use of in-line Azure PowerShell tasks. I observed one task spend 57 seconds outputting debug information prior to starting execution, which took about 5 seconds.
 
-Setting the ```System.Debug``` release variable to ```false``` shaved about 7 minutes of the run time of my team's release pipeline, and we haven't missed the debug output yet.
+Setting the ```System.Debug``` release variable to ```false``` shaved about 7 minutes off the run time of my team's release pipeline, and we haven't missed the debug output yet.
 
 ![spacer](/img/spacer.gif)
 
