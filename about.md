@@ -3,9 +3,9 @@ layout: page
 title: About
 ---
 
-I am a programmer, architect, team lead, agile coach and certified Scrum Master from the UK. I work as a .NET Sofware Development Consultant at [Solidsoft Reply](http://www.reply.com/solidsoft-reply/en/). I help teams write clean, well-crafted code, create great products and deliver them regularly and reliably.
+I am a programmer, architect, team lead, agile coach and certified Scrum Master from the UK. I work as a Master Specialist Consultant at [Netcompany](https://www.netcompany.com/en-GB). I help teams write clean, well-crafted code, create great products and deliver them regularly and reliably.
 
-Over the past 15 years I have helped create software to:
+Over the past 16 years I have helped create software to:
 
 *  Help audit clinical care in NHS hospitals.
 *  Manage planning and building control applications for UK local authorities.
