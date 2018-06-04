@@ -88,10 +88,6 @@ img {
   margin-top: 30px;
 }
 
-.center {
-	text-align: center;
-}
-
 @media only screen and (min-width: 768px) {
   .disqus-comments {
     margin-top: 40px;
@@ -645,4 +641,17 @@ td.gutter {
 
 #social-share-section {
   margin-bottom: 30px;
+}
+
+/* --- Incompentent Boobery --- */
+
+/* I like more space between list items */
+.blog-post li {
+  margin: 1.25em 0;
+}
+
+
+/* Used to centre images in the flow */
+.center {
+	text-align: center;
 }
