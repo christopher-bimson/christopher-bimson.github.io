@@ -30,6 +30,9 @@ remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-feed
 
+# Minimal Mistakes Settings
+minimal_mistakes_skin: "dark"
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
