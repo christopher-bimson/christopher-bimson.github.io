@@ -1,6 +1,7 @@
 ---
 layout: single
 title: No Audio Over HDMI After Windows 10 Upgrade
+tags: [Yak Shaving, Windows 10]
 ---
 Sometime after my otherwise successful upgrade to Windows 10 I connected my laptop to a Samsung TV like I had done a million times before and was irked to discover that the sound output was no longer working. 
 

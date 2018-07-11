@@ -2,6 +2,7 @@
 layout: single
 title: Four Free 1080p Monitors Courtesy of Intel!
 subtitle: Fixing a bad Intel 4600 graphics driver on Windows 10.
+tags: [Yak Shaving, Windows 10]
 ---
 I was lucky enough to win four brand new monitors in the latest round of Windows updates.
 

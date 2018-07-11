@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Faster Azure Deployments
-subtitle: Only debug when you are actively debugging.
+tags: [Visual Studio Team Services, Azure]
 ---
 Fixing a failing release definition in Visual Studio Team Services can be a chore. To make things a little easier you might be inclined to leave debug output enabled, so you have the maximum amount of data available when the inevitable breakages happen.
 

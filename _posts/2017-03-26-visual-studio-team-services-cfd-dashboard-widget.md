@@ -1,14 +1,14 @@
 ---
 layout: single
 title: A Cumulative Flow Diagram For The Visual Studio Team Services Dashboard
-subtitle: Less than five minutes. Zero lines of code. No warranty. 
+tags: [Visual Studio Team Services, Hacks]
 ---
 The dashboard in Visual Studio Team Services isn't a replacement for [big visible charts](http://ronjeffries.com/xprog/articles/bigvisiblecharts/) 
 but it provides a handy little library of [widgets](https://www.visualstudio.com/en-us/docs/report/widget-catalog) that can be used to display a lot of useful information at a glance. 
 
 The widget catalog contains a burndown chart for teams that work in fixed length iterations, but while VSTS has a cumulative flow diagram for teams who take a more Kanban-esque approach, it is not yet available in widget form. An area graph created from a work item query may make an effective substitute or, if you are really dedicated, you could probably create a widget using the [API.](https://www.visualstudio.com/en-us/docs/integrate/extensions/develop/add-dashboard-widget) But who has time for that?       
 
-## Hack
+## URL Hack
 
 Turns out it is possible to display the VSTS cumulative flow diagram on the dashboard with a little bit of URL hacking. Here's how:
 

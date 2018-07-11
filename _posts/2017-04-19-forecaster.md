@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Forecasting
+tags: [Forecaster, No Estimates]
 ---
 
 This [post by Neil Killick](https://neilkillick.wordpress.com/2017/01/09/what-would-my-noestimates-book-look-like/) has a good summary of the dysfunctional behaviors that seem to be permanently wedded to estimation in software development. It's a great post, and you should read it all, but I want to focus on two points that are relevant to something I've been mucking about with recently.
