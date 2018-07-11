@@ -2,11 +2,9 @@
 layout: single
 title: Jekyll and GitHub Pages on Windows
 ---
-I've been neglecting blogging again.
-
 I use the combination of [Jekyll](https://jekyllrb.com/) and [GitHub Pages](https://pages.github.com/) for my blog and to make the publishing process smoother I wanted to have the same local testing experience on my Windows machine as I do on my Chromebook.
 
-These are the steps I followed to setup a Ruby environment capable of running Jekyll on a Windows 10 machine.
+If you want to setup a Ruby environment capable of running Jekyll on a Windows 10 machine you can follow these steps.
 
 ## Linux Subsystem for Windows
 
