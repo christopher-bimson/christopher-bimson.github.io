@@ -17,4 +17,3 @@ Take a look:
 The data behind the widgets is available via an [OData](https://docs.microsoft.com/en-us/vsts/report/extend-analytics/) interface and integration with [Power BI](https://docs.microsoft.com/en-us/vsts/report/powerbi/). I haven't had the chance to try this out yet. The documentation is currently a little light, but I'm hoping this will make it easier to consume this data in more detailed analysis.
 
 Analytics is free while it is in public preview, so it's worth giving it a spin.
-
