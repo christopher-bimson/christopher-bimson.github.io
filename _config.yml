@@ -27,7 +27,7 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  provider               : "staticman_v2" #false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -39,7 +39,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
-  branch                 : # "master"
+  branch                 :  "master"
   commitMessage          : # "New comment."
   filename               : # comment-{@timestamp}
   format                 : # "yml"
@@ -54,8 +54,9 @@ staticman:
       options:
         format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 reCaptcha:
-  siteKey                :
-  secret                 :
+  enabled: true
+  siteKey: "6Lc1sGUUAAAAAAqomL0tZ8xmRxizeUR4XrFgS_eV"
+  secret: "DTI+OVIWxE1h2iUwITawS8pj+g+qAxzCwfB+mEbVSj/vHqGBhuXvlJ0tdnt34WC7+l4EqR2o11/hA3j/3r9JRSwsJ/ZCRVzLAhCWoz/A889tQuUBj6gPrIwANdhhxBX9AZDwZIYCukeh7UY5HxSAZxC4/OoE1elo9e8XA68WWpc="
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true
@@ -92,7 +93,7 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          : "UA-86428930-1"
     anonymize_ip         : # true, false (default)
@@ -102,7 +103,7 @@ analytics:
 author:
   name             : "Christopher Bimson"
   avatar           : "/img/avatar-icon.png"
-  bio              : "Software Craftsman, Team Lead, Agile Coach, Traveller."
+  bio              : "Software Craftsman, Team Lead and Agile Coach"
   location         : "Reading, UK"
   email            :
   uri              : 
@@ -266,7 +267,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
       classes: wide
