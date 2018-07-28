@@ -25,7 +25,7 @@ Here is a worked example[^1] to explain how to make one:
    To keep this example simple we'll assume a Scrum team with a velocity measured in story points per iteration.
 
    | Iteration     | Velocity      |
-   | ------------: | -------------:|
+   | ------------- | --------------|
    | 1             | 6             |
    | 2             | 8             |
    | 3             | 5             |
@@ -43,7 +43,7 @@ Here is a worked example[^1] to explain how to make one:
 4. We populate each time period in each trial by randomly sampling the historic data from step 1. This will result in a data set that looks a bit like this:
 
    | Iteration | Trial 1 | Trial 2 | Trial 3 | Trial 4 | Trial 5 |
-   | --------: | ------: | ------: | ------: | ------: | ------: |
+   | -------- -| ------- | ------- | ------- | ------- | ------- |
    | 1         |     13  |     13  |      5  |       8 |       5 |
    | 2         |     8   |     8   |     13  |       5 |       5 |
    | 3         |     8   |     5   |      6  |       8 |       6 |
@@ -58,7 +58,7 @@ Here is a worked example[^1] to explain how to make one:
 story points was achieved.
   
    | Story Points Achieved | Likelihood |
-   | --------------------: | ---------: |
+   | --------------------  | ---------  |
    | 40                    |      100%  |
    | 50                    |       80%  |
    | 60                    |       60%  |
@@ -79,13 +79,13 @@ This is where the monte carlo forecast adds value. It produces a range of possib
 
 It's unfashionable to do maths with your own brain, so I wrote some code to create these simple forecasts. You can find it on [GitHub.](https://github.com/christopher-bimson/Forecaster) This is how to use it to recreate the example above:
 
-```
+```shell
 forecast.exe --historicThroughput 6 8 5 13 7 --periodsToForecast 8
 ```
 
 And this is what the output will look like:
 
-```
+```shell
 |   Forecast Throughput|            Likelihood|
 |       At Least 40 WUs|               100.00%|
 |       At Least 50 WUs|                96.41%|

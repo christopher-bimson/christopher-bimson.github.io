@@ -17,8 +17,7 @@ Several different Linux distributions are available in the Microsoft Store, but 
 1. Open an administrator Powershell prompt and run:
 
     ```powershell
-    Enable-WindowsOptionalFeature -Online 
-    -FeatureName Microsoft-Windows-Subsystem-Linux
+    Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
     ```
 2. Restart Windows.
 3. Open the Microsoft store app and install [Ubuntu.](https://www.microsoft.com/store/productId/9NBLGGH4MSV6) 
@@ -38,30 +37,30 @@ We will be using [Ruby Version Manager](https://rvm.io/) to easily install and m
     Note that the first time you use `sudo` in a session you will have to provide your password.
 2. Install a few prerequisites to ensure that the subsequent steps go smoothly by running:
 
-    ```bash
+    ```shell
     sudo apt-get install -y curl gnupg build-essential
     sudo apt-get install software-properties-common
     ```
 3. RVM can be installed easily using `apt-get`, but we need to reference the project's personal package archive to do so:
 
-    ```bash
+    ```shell
     sudo apt-add-repository -y ppa:rael-gc/rvm
     sudo apt-get update
     ```
 4. Install RVM:
 
-    ```bash
+    ```shell
     sudo apt-get install rvm
     ```
 5. You will need to add your user to the `rvm` group before you can use rvm:
 
-    ```bash
+    ```shell
     sudo usermod -a -G rvm <yourUserNameHere>
     ```
 6. Restart the Ubuntu app.
 7. Install Ruby and Bundler:
 
-    ```bash
+    ```shell
     rvm install ruby
     rvm use ruby
     gem install bundler
