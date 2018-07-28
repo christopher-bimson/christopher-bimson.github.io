@@ -2,6 +2,7 @@
 layout: single
 title: Jekyll and GitHub Pages on Windows
 tags: [Jekyll, GitHub Pages, Windows 10]
+redirect_from: "/2018-07-11-jekyll-and-github-pages-on-windows/"
 ---
 I use the combination of [Jekyll](https://jekyllrb.com/) and [GitHub Pages](https://pages.github.com/) for my blog and to make the publishing process smoother I wanted to have the same local testing experience on my Windows machine as I do on my Chromebook.
 

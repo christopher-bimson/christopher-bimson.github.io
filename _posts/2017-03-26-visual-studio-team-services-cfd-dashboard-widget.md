@@ -2,6 +2,7 @@
 layout: single
 title: A Cumulative Flow Diagram For The Visual Studio Team Services Dashboard
 tags: [Visual Studio Team Services, Hacks]
+redirect_from: "/2017-03-26-visual-studio-team-services-cfd-dashboard-widget/"
 ---
 The dashboard in Visual Studio Team Services isn't a replacement for [big visible charts](http://ronjeffries.com/xprog/articles/bigvisiblecharts/) 
 but it provides a handy little library of [widgets](https://www.visualstudio.com/en-us/docs/report/widget-catalog) that can be used to display a lot of useful information at a glance. 

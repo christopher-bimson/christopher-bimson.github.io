@@ -2,6 +2,7 @@
 layout: single
 title: Lazy File Checksums
 tags: [Scripting, Hacks]
+redirect_from: "/2016-11-02-lazy-file-checksums/"
 ---
 Calculating a file checksum is a routine activity I need to perform occasionally. 
 

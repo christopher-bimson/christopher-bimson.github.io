@@ -2,6 +2,7 @@
 layout: single
 title: Faster Azure Deployments
 tags: [Visual Studio Team Services, Azure]
+redirect_from: "/2017-11-22-faster-azure-deployments-with-vsts/"
 ---
 Fixing a failing release definition in Visual Studio Team Services can be a chore. To make things a little easier you might be inclined to leave debug output enabled, so you have the maximum amount of data available when the inevitable breakages happen.
 

@@ -2,6 +2,7 @@
 layout: single
 title: Analytics in Visual Studio Team Services
 tags: [Visual Studio Team Services]
+redirect_from: "/2018-02-27-vsts-analytics/"
 ---
 Getting actionable metrics out of Visual Studio Team Services can be painful. I've published a [couple](https://christopher-bimson.github.io/2017-03-26-visual-studio-team-services-cfd-dashboard-widget/) of [hacks](https://github.com/christopher-bimson/VstsMetrics) to make it slightly easier to track lead time and cycle time on a VSTS project, but it's still a chore.
 
