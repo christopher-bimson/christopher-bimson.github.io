@@ -2,12 +2,6 @@
 layout: single
 permalink: /about/
 title: About Me
-header:
-  overlay_image: /img/avatar-icon.png
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
-  #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-  #cta_label: "More Info"
-  #cta_url: "https://unsplash.com"
 ---
 
 I am a programmer, architect, team lead, agile coach and certified Scrum Master from the UK. I work as a Principal Software Craftsman at [Codurance](https://codurance.com/). I help teams write clean, well-crafted code, create great products and deliver them regularly and reliably.
