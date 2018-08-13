@@ -15,7 +15,7 @@ Over the past 16 years I have helped create software to:
 *  Protect e-mail users from zero-day malware attacks.
 *  Help prevent falsified medicines from harming patients across the EU.
 
-I believe in the [principles of agile software development](http://agilemanifesto.org/principles.html), and that practices and processes derived from them are the best ways to develop software we currently know of. I care about good software craftmanship practices like TDD, BDD, SOLID object orientated code, domain driven design and continuous integration and release.
+I believe in the [principles of agile software development](http://agilemanifesto.org/principles.html), and that practices and approaches derived from them are the best ways to develop software we currently know of. I care about good software craftmanship practices like test driven development, behaviour driven development, domain driven design, SOLID object orientated code and continuous delivery.
 
 The main purpose of the blog is to make me a better writer by forcing myself to write more frequently. The topics will mainly be programming bits and bobs, solutions to my IT yak shaving problems and opinions on the things I care about.
 
