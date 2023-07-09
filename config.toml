@@ -1,30 +1,151 @@
-baseURL = 'http://example.org/'
-theme = 'LoveIt'
-title = 'My New Hugo Site'
-languageCode = 'en'
-languageName = 'English'
+baseURL = "http://example.org/"
+theme = "LoveIt"
+title = "My New Hugo Site"
+languageCode = "en"
+languageName = "English"
 
 [author]
-    name = 'Christopher Bimson'
-
+    name = "Christopher Bimson"
+    
 [menu]
     [[menu.main]]
         weight = 1
-        identifier = 'posts'
-        pre = ''
-        post = ''
-        name = 'Posts'
-        url = '/posts/'
-        title = ''
+        identifier = "posts"
+        pre = ""
+        post = ""
+        name = "Posts"
+        url = "/posts/"
+        title = ""
     [[menu.main]]
         weight = 2
-        identifier = 'tags'
-        pre = ''
-        post = ''
-        name = 'Tags'
-        url = '/tags/'
-        title = ''
+        identifier = "tags"
+        pre = ""
+        post = ""
+        name = "Tags"
+        url = "/tags/"
+        title = ""
+    [[menu.main]]
+        weight = 3
+        identifier = "about"
+        pre = ""
+        post = ""
+        name = "About"
+        url = "/about/"
+        title = ""
 [markup]
     [markup.highlight]
         noClasses = false
+
+[params]
+    defaultTheme = "dark"
+    title = "TITLE PLACEHOLDER"
+    description = "This is my cool site"
+    images = ["/logo.png"]
+
+    [params.header]
+        desktopMode = "auto"
+        mobileMode = "auto"
+            [params.header.title]
+            logo = ""
+            name = "TITLE PLACEHOLDER"
+            typeit = false
+
+    [params.footer]
+        enable = true
+        hugo = true
+        copyright = true
+        author = true
+        since = 2018
+        license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+
+    [params.section]
+        paginate = 20
+        dateFormat = "01-02"
+        rss = 10
+
+    [params.search]
+        enable = true
+        type = "lunr"
+        contentLength = 4000
+        placeholder = "Search..."
+        maxResultLength = 10
+        snippetLength = 30
+        highlightTag = "em"
+        absoluteURL = false
     
+    [params.home]
+        rss = 10
+        [params.home.profile]
+            enable = true
+            gravatarEmail = "christopher.bimson@nospam.example.com"
+            avatarURL = "/images/avatar.png"
+            title = "TITLE PLACEHOLDER"
+            subtitle = "SUBTITLE PLACEHOLDER"
+            typeit = true
+            social = true
+            disclaimer = "DISCLAIMER PLACEHOLDER"
+        [params.home.posts]
+            enable = true
+            paginate = 6
+            defaultHiddenFromHomePage = false
+
+    [params.social]
+        GitHub = "christopher-bimson"
+        Linkedin = "chrisbimson"
+        Email = "christopher.bimson@nospam.example.com"
+        RSS = true
+
+    [params.page]
+        hiddenFromHomePage = false
+        hiddenFromSearch = false
+        twemoji = false
+        lightgallery = false
+        ruby = true
+        fraction = true
+        fontawesome = true
+        linkToMarkdown = false
+        rssFullText = false
+
+        [params.page.toc]
+            enable = false
+            keepStatic = true
+            auto = true
+
+        [params.page.math]
+            enable = true
+            copyTex = true
+            mhchem = true
+        
+        [params.page.code]
+            copy = true
+            maxShownLines = 50
+            
+        [params.page.share]
+            enable = true
+            Twitter = true
+            Facebook = false
+            Linkedin = true
+            Whatsapp = false
+            Pinterest = false
+            Tumblr = false
+            HackerNews = true
+            Reddit = true
+            VK = false
+            Buffer = false
+            Xing = false
+            Line = true
+            Instapaper = false
+            Pocket = false
+            Flipboard = false
+            Weibo = false
+            Blogger = false
+            Baidu = false
+            Odnoklassniki = false
+            Evernote = false
+            Skype = false
+            Trello = false
+            Mix = false
+
+        [params.page.comment]
+            enable = false
+            
