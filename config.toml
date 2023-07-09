@@ -106,7 +106,6 @@ languageName = "English"
     [params.social]
         GitHub = "christopher-bimson"
         Linkedin = "chrisbimson"
-        Email = "christopher.bimson@nospam.example.com"
         RSS = true
 
     [params.page]
