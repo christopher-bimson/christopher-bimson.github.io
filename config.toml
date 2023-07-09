@@ -54,6 +54,10 @@ languageName = "English"
     description = "Technology Leader, Coach, Architect and Software Craftsman"
     images = ["images/avatar-icon.png"]
 
+    [params.app]
+        title = "christopher-bimson.github.io"
+        noFavicon = false
+
     [params.header]
         desktopMode = "auto"
         mobileMode = "auto"
