@@ -6,6 +6,9 @@ languageName = "English"
 
 [author]
     name = "Christopher Bimson"
+
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
     
 [menu]
     [[menu.main]]
