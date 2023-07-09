@@ -1,6 +1,6 @@
-baseURL = "http://example.org/"
+baseURL = "christopher-bimson.github.io"
 theme = "LoveIt"
-title = "My New Hugo Site"
+title = "TITLE PLACEHOLDER I"
 languageCode = "en"
 languageName = "English"
 
@@ -38,16 +38,15 @@ languageName = "English"
 
 [params]
     defaultTheme = "dark"
-    title = "TITLE PLACEHOLDER"
-    description = "This is my cool site"
-    images = ["/logo.png"]
+    title = "christopher-bimson.github.io"
+    description = "This is the one line description of me I can take from about.md"
+    images = ["images/avatar-icon.png"]
 
     [params.header]
         desktopMode = "auto"
         mobileMode = "auto"
             [params.header.title]
-            logo = ""
-            name = "TITLE PLACEHOLDER"
+            name = "christopher-bimson.github.io"
             typeit = false
 
     [params.footer]
@@ -77,13 +76,12 @@ languageName = "English"
         rss = 10
         [params.home.profile]
             enable = true
-            gravatarEmail = "christopher.bimson@nospam.example.com"
-            avatarURL = "/images/avatar.png"
-            title = "TITLE PLACEHOLDER"
-            subtitle = "SUBTITLE PLACEHOLDER"
+            avatarURL = "images/avatar-icon.png"
+            title = "Christopher Bimson"
+            subtitle = "This is the one line description of me I can take from about.md"
             typeit = true
             social = true
-            disclaimer = "DISCLAIMER PLACEHOLDER"
+            disclaimer = "Opinions are all my own and do not represent my employers past, present or future."
         [params.home.posts]
             enable = true
             paginate = 6
