@@ -1,6 +1,6 @@
-baseURL = "christopher-bimson.github.io"
+baseURL = "https://christopher-bimson.github.io/"
 theme = "LoveIt"
-title = "TITLE PLACEHOLDER I"
+title = "christopher-bimson.github.io"
 languageCode = "en"
 languageName = "English"
 
@@ -29,9 +29,18 @@ languageName = "English"
         identifier = "about"
         pre = ""
         post = ""
-        name = "About"
+        name = "About Me"
         url = "/about/"
-        title = ""
+        title = ""    
+    # [[menu.main]]
+    #     weight = 4
+    #     identifier = "cv"
+    #     pre = ""
+    #     post = ""
+    #     name = "CV"
+    #     url = "/cv/"
+    #     title = ""
+
 [markup]
     [markup.highlight]
         noClasses = false
@@ -39,7 +48,7 @@ languageName = "English"
 [params]
     defaultTheme = "dark"
     title = "christopher-bimson.github.io"
-    description = "This is the one line description of me I can take from about.md"
+    description = "Technology Leader, Coach, Architect and Software Craftsman"
     images = ["images/avatar-icon.png"]
 
     [params.header]
@@ -78,7 +87,7 @@ languageName = "English"
             enable = true
             avatarURL = "images/avatar-icon.png"
             title = "Christopher Bimson"
-            subtitle = "This is the one line description of me I can take from about.md"
+            subtitle = "Technology Leader, Coach, Architect and Software Craftsman"
             typeit = true
             social = true
             disclaimer = "Opinions are all my own and do not represent my employers past, present or future."
