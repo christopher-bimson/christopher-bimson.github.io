@@ -90,7 +90,7 @@ languageName = "English"
             subtitle = "Technology Leader, Coach, Architect and Software Craftsman"
             typeit = true
             social = true
-            disclaimer = "Opinions are all my own and do not represent my employers past, present or future."
+            disclaimer = "Opinions expressed are my own and do not represent my employers past, present or future."
         [params.home.posts]
             enable = true
             paginate = 6
