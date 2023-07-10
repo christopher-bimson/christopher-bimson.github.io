@@ -5,7 +5,7 @@ languageCode = "en"
 languageName = "English"
 
 [author]
-    name = "Christopher Bimson"
+    name = "Chris"
 
 [outputs]
     home = ["HTML", "RSS", "JSON"]
@@ -36,13 +36,13 @@ languageName = "English"
         url = "/about/"
         title = ""    
     # [[menu.main]]
-    #     weight = 4
-    #     identifier = "cv"
-    #     pre = ""
-    #     post = ""
-    #     name = "CV"
-    #     url = "/cv/"
-    #     title = ""
+    #      weight = 4
+    #      identifier = "cv"
+    #      pre = ""
+    #      post = ""
+    #      name = "CV"
+    #      url = "/cv/"
+    #      title = ""
 
 [markup]
     [markup.highlight]
@@ -121,7 +121,7 @@ languageName = "English"
 
         [params.page.toc]
             enable = false
-            keepStatic = true
+            keepStatic = false
             auto = true
 
         [params.page.math]
