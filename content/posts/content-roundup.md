@@ -3,7 +3,7 @@ title: "Content Roundup"
 date: 2023-07-15T22:27:16+01:00
 draft: false
 summary: "A signpost to the short YouTube series I did as a guest on Jorge Gueorguiev Garcia's YouTube channel."
-tags: ["Video", "Refactoring", "fsharp"]
+tags: ["Video", "Refactoring", "FSharp"]
 ---
 
 About 6 months ago my former [Codurance](https://www.codurance.com/) colleague and [podcast](https://open.spotify.com/show/2J8m3qKsB9IVhV4AagaDZn?si=4c0c9f324d5442cd) co-host [:(fa-brands fa-twitter): Jorge Gueorguiev Garcia](https://twitter.com/yefoakira) asked if I wanted to do some pair programming with him on his [YouTube channel.](https://www.youtube.com/@twoormore7436/about)

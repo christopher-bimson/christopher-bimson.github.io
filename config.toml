@@ -35,14 +35,6 @@ languageName = "English"
         name = "About Me"
         url = "/about/"
         title = ""    
-    # [[menu.main]]
-    #      weight = 4
-    #      identifier = "cv"
-    #      pre = ""
-    #      post = ""
-    #      name = "CV"
-    #      url = "/cv/"
-    #      title = ""
 
 [markup]
     [markup.highlight]
