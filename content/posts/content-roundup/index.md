@@ -3,6 +3,10 @@ title: "Content Roundup"
 date: 2023-07-15T22:27:16+01:00
 draft: false
 summary: "A signpost to the short YouTube series I did as a guest on Jorge Gueorguiev Garcia's YouTube channel."
+images: []
+resources:
+- name: "featured-image"
+  src: "featured-image.png"
 tags: ["Video", "Refactoring", "FSharp"]
 ---
 

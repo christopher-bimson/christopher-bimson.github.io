@@ -3,6 +3,10 @@ title: "Forecasting"
 date: 2023-07-10T16:55:46+01:00
 draft: false
 summary: "A repost of my original article on basic monte carlo forecasting."
+images: []
+resources:
+- name: "featured-image"
+  src: "featured-image.jpg"
 tags: ["Forecasting", "NoEstimates", "Delivery Management"]
 ---
 

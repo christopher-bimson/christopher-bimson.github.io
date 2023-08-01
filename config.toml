@@ -152,4 +152,6 @@ languageName = "English"
 
         [params.page.comment]
             enable = false
-            
+[permalinks]
+    'posts' = '/:year/:month/:slug/'
+    '/' = '/:filename/'    

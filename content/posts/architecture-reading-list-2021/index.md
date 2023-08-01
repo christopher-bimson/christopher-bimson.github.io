@@ -3,6 +3,10 @@ title: "Architecture Reading List: 2021 Edition"
 date: 2023-07-28T19:00:00+01:00
 draft: false
 summary: "In response to a question at work a few years ago I wrote a short software architecture reading list. It's not comprehensive and could be more up to date, but it's proven useful over the last couple of years as an answer to 'where do I even start?' type questions."
+images: []
+resources:
+- name: "featured-image"
+  src: "featured-image.jpg"
 tags: ["Architecture", "Recommended Reading"]
 toc:
   enable: true
