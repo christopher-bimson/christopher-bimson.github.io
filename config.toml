@@ -44,8 +44,7 @@ languageName = "English"
     defaultTheme = "dark"
     title = "christopher-bimson.github.io"
     description = "Technology Leader, Coach, Architect and Software Craftsman"
-    images = ["static/android-chrome-192x192.png"]
-
+    
     [params.app]
         title = "christopher-bimson.github.io"
         noFavicon = false
