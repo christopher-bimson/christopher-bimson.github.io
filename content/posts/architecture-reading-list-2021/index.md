@@ -36,7 +36,7 @@ Both [Microsoft](https://learn.microsoft.com/en-us/azure/architecture/browse/) a
 
 ## Domain Driven Design
 
-Domain driven design isn't an architecture style but a way of working. Strategic domain driven design in the best way I know of to identify coherent, loosely coupled modules with well defined boundaries, which are the foundation of all good architectures.
+Domain driven design isn't an architecture style but a way of working. Strategic domain driven design is the best way I know of to identify coherent, loosely coupled modules with well defined boundaries, which are the foundation of all good architectures.
 
 [Domain-Driven Design: Tackling Complexity in the Heart of Software](https://www.goodreads.com/book/show/179133.Domain_Driven_Design) is the founding work on the topic
 
