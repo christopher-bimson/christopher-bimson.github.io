@@ -88,7 +88,9 @@ If you want to get into mob programming check out [this post](https://www.agilea
 
 I said mean things about long running feature branches earlier. Trunk based development is the antidote to that particular poison. At it's simplest, everyone on the team pushes their commits to the main (trunk) branch. Larger teams should use short lived lived feature branches that are merged to main then deleted. **Short lived** is the key qualifier here. Feature branches should not survive longer than a day or so, and should only contain the work of one person or pair.
 
-Successful trunk based development implies adopting a number of other practices, some of which I have mentioned already, but most I have not. Read up on the other things you need to do at [trunkbaseddevelopment.com](https://trunkbaseddevelopment.com/).
+Successful trunk based development implies adopting a number of other practices, some of which I have mentioned already, but most I have not. 
+
+Read up on the other things you need to do at [trunkbaseddevelopment.com](https://trunkbaseddevelopment.com/).
 
 # So, I should do away with PRs?
 
