@@ -1,6 +1,6 @@
 ---
 title: "Use Pre-Commit Hooks to Enforce Coding Standards"
-date: 2024-07-04T12:32:59+01:00
+date: 2024-07-07T14:32:59+01:00
 draft: false
 summary: "As a quick follow up to my piece on ditching blocking code reviews, here is an example of automating a check that is frequently done manually."
 images: []
@@ -52,7 +52,9 @@ done
 exit 0
 ```
 
-You can find a simple repository [here](https://github.com/christopher-bimson/AutoFormatDemo/blob/master/README.md) that you can test with by messing up the formatting of the example files then committing them. You can create a script like this to cover a multitude of file types and their matching tools.
+You can find a simple repository [here](https://github.com/christopher-bimson/AutoFormatDemo/blob/master/README.md) that you can test with by messing up the formatting of the example files then committing them. 
+
+You can create a script like this to cover a multitude of file types and the associated formatting tools.
 
 {{< admonition type=warning title="Careful!" open=true >}}
 The example repository makes the assumption that the users environment already has the required tools to run the hook script. 
