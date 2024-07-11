@@ -7,7 +7,7 @@ images: []
 resources:
 - name: "featured-image"
   src: "featured-image.jpg"
-tags: ["Architecture", Continuous Integration", "Continuous Delivery"]
+tags: ["Architecture", "Continuous Integration", "Continuous Delivery"]
 toc:
   enable: false
 ---
