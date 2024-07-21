@@ -1,3 +1,11 @@
 .author > i:after {
     content: "\00a0";
 }
+
+.single .content .highlight {
+    margin: 1rem 0;
+}
+
+.single .content figure {
+    margin: 1rem 0;
+}

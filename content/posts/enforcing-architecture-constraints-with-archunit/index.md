@@ -1,5 +1,5 @@
 ---
-title: "Enforcing Architecture Constraints With ArchUnit"
+title: "Enforcing Architecture Constraints with ArchUnit"
 date: 2024-07-11T13:00:07+01:00
 draft: false
 summary: "Relying on manually reviewed pull requests to ensure that architecture constraints are being followed? Don't. Instead, define the rules of your architecture and write unit tests to ensure they are not broken."
