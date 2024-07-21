@@ -1,6 +1,6 @@
 ---
 title: "Enforcing Coding Conventions with Roslyn Analyzers"
-date: 2024-07-18T13:00:07+01:00
+date: 2024-07-21T13:00:07+01:00
 draft: false
 summary: "Relying on manually reviewed pull requests to ensure that coding conventions are being followed? If you live in .NET land, don't. Use custom Roslyn analyzers to spot and fix issues ahead of your CI pipeline."
 images: []
@@ -8,6 +8,7 @@ resources:
 - name: "featured-image"
   src: "featured-image.jpg"
 tags: [".NET", "Continuous Integration", "Continuous Delivery"]
+slug: "/enforcing-conventions-with-roslyn-analyzers/"
 toc:
   enable: true
 ---
