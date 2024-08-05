@@ -20,7 +20,7 @@ Git hooks are script hooks that can be executed before or after a specific set o
 
 When you create a git repository you can find examples of different hook scripts in `./git/hooks`. One thing to keep in mind when you are using them is that hook scripts need to be explicitly copied to the `./git/hooks` directory. They cannot be used directly from a repository.
 
-## A Quick Word On Code Style
+## A Quick Word on Code Style
 
 Hopefully no-one is surprised to learn that pretty much every programming language has one or more formatting and linting tools that can be used to enforce a coding standard. The vast majority of these are configurable to allow you to choose preferred style and usage rules. 
 

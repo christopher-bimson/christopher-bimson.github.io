@@ -28,7 +28,7 @@ Due to the complex nature of product development, teams should only estimate ind
 For batches of items beyond this short timeframe (e.g. releases), empirical forecasting using “yesterday’s weather” should be used to answer “how long” or “when” questions, not asking developers.
 {{< /admonition >}}
 
-## Monte Carlo Forecasting
+## Monte Carlo
 
 An easy way to help address both of Neil's points is to create forecasts using the [monte carlo method.](https://en.wikipedia.org/wiki/Monte_Carlo_method) These forecasts are based on historical performance, can provide a range of possible outcomes with a likelihood for each and should not require any additional time from your development team. 
 

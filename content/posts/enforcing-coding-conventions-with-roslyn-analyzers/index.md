@@ -23,7 +23,7 @@ Roslyn is the codename for the open-source, self-hosted compilers for C# and VB.
 
 Analyzers are extensions to the compiler that take advantage of these APIs to detect and surface issues in source code. They can even suggest refactorings to remediate issues that can be taken advantage of by a suitable editor or IDE.
 
-## Playing By Our Own Rules
+## Playing by Our Own Rules
 
 To demonstrate the kind of things that analyzers can do I am going to define some simple coding conventions that represent the kind of things that a C# team may want to follow.
 
