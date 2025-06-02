@@ -30,7 +30,7 @@ Another simple example is a factory that produces generic brand widgets. I put Â
 
 ## Why Does Anyone Care About Measuring Productivity Anyway?
 
-This question is a more perceptive that it may first appear, and we'll come back to it. Assuming good faith[^2] and generalizing a bit, organizational leadership is accountable for getting the most value out of the investment made in that organization. Therefore, they might ask:
+This question is more perceptive that it may first appear, and we'll come back to it. Assuming good faith[^2] and generalizing a bit, organizational leadership is accountable for getting the most value out of the investment made in that organization. Therefore, they might ask:
 
 * How can I get better outcomes for the same level of investment?
 * If I have to cut spending on development by 10%, can we still meet our goals for this period?
